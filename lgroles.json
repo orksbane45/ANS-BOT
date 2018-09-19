@@ -1,0 +1,246 @@
+{
+	"loupgarou": {
+		"nom":"Loup Garou",
+		"description":"Son objectif est d'éliminer tous les innocents (ceux qui ne sont pas Loups-Garous). \rChaque nuit, il se réunit avec ses compères Loups pour décider d'une victime à éliminer...",
+		"image":"https://cdn.discordapp.com/attachments/468573759092162570/482964779422580736/carte2.png",
+		"camp":"Loups Garous"
+	},
+	"loupgaroublanc": {
+		"nom":"Loup garou blanc",
+		"description":"Son objectif est de terminer SEUL la partie. Les autres Loups-Garous croient qu'il est un loup normal, mais une nuit sur deux il peut assassiner un loup de son choix...",
+		"image":"https://cdn.discordapp.com/attachments/468573759092162570/482964151434477568/carte9.png",
+		"camp":"Seul/Loups Garous"
+	},
+	"grandmechantloup": {
+		"nom":"Grand Méchant Loup",
+		"description":"Son objectif est d'éliminer tous les innocents (ceux qui ne sont pas Loups-Garous). \rChaque nuit, il se réunit avec ses compères Loups pour décider d'une victime à éliminer... Tant qu'aucun autre loup n'est mort, il peut, chaque nuit, dévorer une victime supplémentaire.",
+		"image":"https://cdn.discordapp.com/attachments/468573759092162570/482964798452269076/carte21.png",
+		"camp":"Loups Garous"
+	},
+	"infectperedesloup": {
+		"nom":"Infect Père des Loups",
+		"description":"Son objectif est d'éliminer tous les innocents (ceux qui ne sont pas Loups-Garous). Chaque nuit, il se réunit avec ses compères Loups pour décider d'une victime à éliminer... Une fois dans la partie, il peut transformer la victime des loups en ... loup-garou ! \rUne infection qui peut se révéler cruciale, car l'infecté garde ses pouvoirs d'innocent !",
+		"image":"https://cdn.discordapp.com/attachments/468573759092162570/482965993790898188/carte20.png",
+		"camp":"Loups Garous"
+	},
+	"villageois": {
+		"nom":"Villageois",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. \rIl ne dispose d'aucun pouvoir particulier : uniquement sa perspicacité et sa force de persuasion. Toutefois, tous les joueurs voient son rôle d'innocent.",
+		"image":"https://cdn.discordapp.com/attachments/468573759092162570/482967422513709086/carte1.png",
+		"camp":"Village"
+	},
+	"ange": {
+		"nom":"Ange",
+		"description":"Son objectif est d'être éliminé par le village lors du premier vote de jour. \rS'il réussit, il gagne la partie. Sinon, il devient un __Simple Villageois__.",
+		"image":"https://cdn.discordapp.com/attachments/464463935777800192/482970428525117440/carte19.png",
+		"camp":"Seul/Village"
+	},
+	"ancien": {
+		"nom":"Ancien",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Il peut résister à la première attaque des loups. \r__**Mais s'il est tué par un ou des innocent(s)** (jour seulement )__, tous les innocents perdront leurs pouvoirs !",
+		"image":"https://cdn.discordapp.com/attachments/464463935777800192/482972119609638923/carte8.png",
+		"camp":"Village"
+	},
+	"boucemissaire": {
+		"nom":"Bouc Emissaire",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Mais attention ! En cas de doute sur la personne à éliminer, le village décidera de l'éliminer par défaut.",
+		"image":"https://cdn.discordapp.com/attachments/464463935777800192/482972173317832712/carte14.png",
+		"camp":"Village"
+	},
+	"chasseur": {
+		"nom":"Chasseur",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. A sa mort, il doit éliminer un joueur en utilisant sa dernière balle...",
+		"image":"https://cdn.discordapp.com/attachments/464463935777800192/482972570229014530/carte6.png",
+		"camp":"Village"
+	},
+	"corbeau": {
+		"nom":"Corbeau",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous.\rChaque nuit, il peut désigner un joueur, qui se retrouvera le lendemain avec deux voix contre lui au vote.\rC'est donc un pouvoir très puissant...",
+		"image":"https://cdn.discordapp.com/attachments/464463935777800192/482972712550268955/carte17.png",
+		"camp":"Village"
+	},
+	"voyante": {
+		"nom":"Voyante",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. \rChaque nuit, elle peut espionner un joueur et découvrir sa véritable identité...",
+		"image":"https://cdn.discordapp.com/attachments/461561788463579157/483245958939934740/carte3.png",
+		"camp":"Village"
+	},
+	"salvateur": {
+		"nom":"Salvateur",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Chaque nuit, il peut protéger quelqu'un de l'attaque des Loups-Garous...",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483246876036956160/carte4.png",
+		"camp":"Village"
+	},
+	"sorciere": {
+		"nom":"Sorcière",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. \rElle dispose de deux potions : une potion de vie pour sauver la victime des Loups, et une potion de mort pour assassiner quelqu'un.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483252802718793729/carte5.jpg",
+		"camp":"Village"
+	},
+	"cupidon": {
+		"nom":"Cupidon",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Dès le début de la partie, il doit former un couple de deux joueurs. \rLeur objectif sera de survivre ensemble, car si l'un d'eux meurt, l'autre se suicidera.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483254246712672256/wir.skyrock.net.jpg",
+		"camp":"Village"
+	},
+	"chaman": {
+		"nom":"Chaman",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Chaque nuit, il dispose d'un court moment pour écouter les esprits.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483301360742432799/carte10.png",
+		"camp":"Village"
+	},
+	"voleur": {
+		"nom":"Voleur",
+		"description":"Son objectif n'est pas fixe : il peut en début de partie prendre le rôle d'un autres joueur.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483301520318660618/carte11.png",
+		"camp":"Camp selon son nouveau rôle"
+	},
+	"petitefille": {
+		"nom":"Petite Fille",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. \rLe maître de jeux chaque nuit apres l'attaque des loups garous envoi a la petite fille la conversation des loups ( sans leurs speudo )",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483302420386938880/carte12.png",
+		"camp":"Village"
+	},
+	"idiotduvillage": {
+		"nom":"Idiot du Village",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Si le village décide de l'éliminer, il ne meurt pas, les villageois l'épargnant au dernier moment. Mais il perd dès lors son droit de vote journalier.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483302746318176267/carte13.png",
+		"camp":"Village"
+	},
+	"joueurdeflute": {
+		"nom":"Joueur de Flûte",
+		"description":"Son objectif est d'enchanter tous les joueurs vivants de la partie. \r \rIl peut enchanter 1 ou 2 fois par nuit celon le nombre de joueurs : \r1 personne = moins de 15 joueurs \r2 personnes = plus que 15 joueurs",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483303811218145281/carte15.png",
+		"camp":"Seul"
+	},
+	"enfantsauvage": {
+		"nom":"Enfant Sauvage",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. \rIl choisit un modèle au début du jeu, si ce dernier meurt, il devient Loup-Garou et joue dans leur camp.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483304103414595594/carte16.png",
+		"camp":"Village/Loups Garous"
+	},
+	"soeur": {
+		"nom":"Sœur ( vengeresse )",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Elle connaît l'identité de son autre soeur, et peut donc avoir confiance en ses paroles. \rSi les soeurs sont vengeresses alors quand une des deux soeurs meurt 'lautre pourra tuer un joueurs la nuit suivante.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483304964652007425/carte22.png",
+		"camp":"Village"
+	},
+	"montreurdours": {
+		"nom":"Montreur d’Ours",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Au lever du jour, s'il se trouve à côté d'un loup-garou, l'ours grogne.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483305464969560074/carte23.png",
+		"camp":"Village"
+	},
+	"renard": {
+		"nom":"Renard",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Chaque nuit, il peut flairer un joueur et savoir si lui ou un de ses 2 voisins fait partie du camp des loups. Si c'est le cas, il conserve son pouvoir pour la nuit suivante, en revanche si le joueur flairé et ses 2 voisins sont tous les 3 innocents, il perd son pouvoir.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483305682918047755/carte24.png",
+		"camp":"Village"
+	},
+	"chienloup": {
+		"nom":"Chien-Loup",
+		"description":"Son objectif est d'éliminer tous les Loups-Garous. Au début du jeu, il peut choisir entre rester parmi le clan des Villageois ou alors de rejoindre le clan des Loups-Garous, s'il choisit de rejoindre les Loups-Garous, alors son objectif change et il doit éliminer tous les innocents.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483306019649355777/carte25.png",
+		"camp":"Village/Loups Garous"
+	},
+	"lapinblanc": {
+		"nom":"Lapin Blanc",
+		"description":"Son objectif est de donner deux chocolats à tous les joueurs vivants de la partie. Il peut donner jusqu'à deux chocolats par nuit.",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483311328237453312/carte31.png",
+		"camp":"Seul"
+	},
+	"pyromane": {
+		"nom":"Pyromane",
+		"description":"Il est dans le camp des villageois et se réveille avant les loups-garous. Il peut une fois par partie brûler un bâtiment qui sera retiré définitivement du jeu, son occupant devient alors vagabond. Si le bâtiment choisi est celui de la victime des loups-garous, il ne meurt pas ; par contre, le premier loup-garou à droite de la victime est éliminé. ",
+		"image":"https://cdn.discordapp.com/attachments/478716536299978774/483313182585389057/471323pyromane.jpg",
+		"camp":"Village"
+	},
+	"docteur": {
+		"nom":"Docteur",
+		"description":"Le Docteur connaît un antidote à la Lycanthrophie. Chaque nuit, avant le tour des loups-garous, il peut choisir un villageois. S'il choisit un loup-garou noir ou blanc, ce dernier agit alors comme un simple villageois jusqu'à la fin de la partie. S'il choisit un loup-garou normal, ce dernier ne prend pas place au choix pendant le tour des loups-garous. S'il a choisi un villageois normal, le villageois en question meurt par réaction au produit. Le docteur ne peut pas voir les loup-garous agir pendant leur tour.",
+		"image":"https://cdn.discordapp.com/attachments/474423299321888818/474449578142334988/1384910543-docteur.jpg",
+		"camp":"Village"
+	},
+	"fauxjeton": {
+		"nom":"Faux Jeton",
+		"description":"Le faux-jeton est  un villageois déguisé en loup-garou. Il \"vote\" également pour éliminer un des villageois, sous peine d'être immédiatement repéré. Le maitre du jeu, lors de la désignation de la victime, ne doit pas prendre en compte le vote du faux-jeton. Si entre deux potentielles victimes, l'une a été désignée à 3 voix (dont celle du faux-jeton) contre deux, les votes se ramènent à l'égalité est donc personne ne meurt.",
+		"image":"https://cdn.discordapp.com/attachments/474423299321888818/474450548096106497/1384909240-fauxjeton.jpg",
+		"camp":"Village"
+	},
+	"princesse": {
+		"nom":"Princesse",
+		"description":"La princesse sera appeler la première nuit, elle devras annonce au MDJ qui elle voudras prendre comme chevalier .\rSi la princesse meurt c'est le chevalier qui meurt a ca place !",
+		"image":"https://cdn.discordapp.com/attachments/480881028777639936/485179317358428161/image0.jpg",
+		"camp":"Village"
+	},
+	"joueusedecarte": {
+		"nom":"Joueuse de carte",
+		"description":"Elle peut, une fois dans la partie, activer un effet  qui met le bordel dans la partie. \r\r__Effets__ :\r1.    Tue un joueur aléatoire\r2.    Révèle un joueur aléatoire [ rôle + pseudo ] en vocal\r3.    Échange le rôle de deux joueurs \r4.    Tout le monde doit parler en anglais ( 2 nuits )\r5.    La joueuse de carte devient le rôle de sont choix\r6.    Personne a le droit de parler en vocal pendant toute la partie\r7.    Le maître de jeux fais passé les rôles aléatoirement \r8.    Vous ne connaitrez plus le rôle des joueurs morts\r9.    Lance un ni oui, ni non pendant toute la partie \r10.    Rien ne se passe, et un effet pourra être relancé",
+		"image":"https://cdn.discordapp.com/attachments/480881028777639936/485173779270598657/image0.jpg",
+		"camp":"Village/Loup Garous"
+	},
+	"puceau": {
+		"nom":"Puceau",
+		"description":"Le puceau croit en l’amour véritable et désigne lors de la première nuit une personne dont il est secrètement amoureux. Si cette personne vient à mourir, le puceau peut choisir de se sacrifier à sa place. C’est clairement une victime.",
+		"image":"https://cdn.discordapp.com/attachments/474423299321888818/484686885822791695/Cartes_LoupGarou_02_Puceau-768x768.png",
+		"camp":"Village"
+	},
+	"comedien": {
+		"nom":"Comédien",
+		"description":"Au début de la partie il choisit 3 cartes à pouvoir exemple voyante,sorcière et salvateur. Durant 3 nuits il peut décidé d'interprété un de c'est rôles et donc utilisé les pouvoirs du rôles en question il peut utilisé sont pouvoir que 3 fois.\r __Attention__ : Il ne peut utiliser qu'une seule fois chaqun des c'est 3 rôles !",
+		"image":"https://cdn.discordapp.com/attachments/474423299321888818/484486951114768384/Le-comedien.jpg",
+		"camp":"Camp selon son action"
+	},
+	"culpute": {
+		"nom":"Culpute",
+		"description":"La culpute doit baiser tout le monde , si elle tue le cupidon tour 1 elle gagne !",
+		"image":"https://cdn.discordapp.com/attachments/480881028777639936/485175426768175124/image0.gif",
+		"camp":"Seul"
+	},
+	"speedy": {
+		"nom":"Speedy",
+		"description":"Speedy étant le chat de <@327176843709120512> peut chaque nuit rendre visite a une personne,\r__EX :__Si Speedy ce rend chez la sorcière alors elle ne pourra pas jouer ce soir là.",
+		"image":"https://cdn.discordapp.com/attachments/453967828626833431/485100123576074243/carte7.png",
+		"camp":"Village"
+	},
+	"keggyu": {
+		"nom":"Le Keggyu",
+		"description":"Toute les 2 nuits, le Keggyu peut transformer le rôle de quelqu'un en \"Ritsu\". Les Ritsu n'ont aucun pouvoir et gagnent, comme le Keggyu, si le village est entièrement transformé en Ritsu. Attention, le MJ, lorsque le Keggyu ou qu'un Ritsu est tué, est obligé de dire \"Un Ritsu a été tué\" car le Keggyu se font dans la masse de ses fidèles...",
+		"image":"https://cdn.discordapp.com/attachments/486780489319841803/486808436399669250/Darkawai_mecat.png",
+		"camp":"Seul"
+	},
+	"exorcistezele": {
+		"nom":"L'Exorciste Zêlé",
+		"description":"L'Exorciste Zêlé ne peux voter durant la journée. Obsédé par l'idée de purifier les Loup-garous, il peut, une fois par nuit, exorciser un des villageois. Si la personne exorcisée est un Loup-Garous, celle-ci redevient un villageois normal. Mais s'il tente d'exorciser un innocent, ce-dernier succombera à ses blessures causées par l'exorcisme. L'Eglise le déchoiera alors de son rôle, révélant ainsi son rôle au village et l'empêchant d'exorciser la nuit prochaine.",
+		"image":"",
+		"camp":"Village"
+	},
+	"loupenrage": {
+		"nom":"Le Loup Enragé",
+		"description":"Le Loup Enragé est un loup-garou atteint d'un mal inconnu. Une seule et unique fois durant toute la partie, le Loup Enragé peut décider de tuer un de ses camarades Loup-Garous pour pouvoir dévorer 2 nouvelles victimes qui seront choisies aléatoirement.",
+		"image":"",
+		"camp":"Loups Garous"
+	},
+	"lepreux": {
+		"nom":"Le Lépreux",
+		"description":"Lorsque le Lépreux est tué, il infecte les 2 personnes qui l'entourent (celle au-dessus de lui et celle en dessous de lui). Les victimes contaminées mourront après le prochain vote ^^",
+		"image":"",
+		"camp":"Village"
+	},
+	"tarasque": {
+		"nom":"La Tarasque",
+		"description":"La Tarasque est un terrifiant dragon terrorisant le village. Elle ne peut donc pas voter. Toutes les 2 nuits, la Tarasque sort de sa tanière pour dévorer un des villageois. Si la Tarasque est la cible des Loups-Garous, elle résistera une première fois, empalant ainsi un des loups-garous (au hasard) sur sa carapace épineuse. Malheureusement sa carapace sera alors fendue, ne la protégeant plus des aggressions des Loups-Garous.\rLa Tarasque gagne normalement seule, après avoir dévorée tout le village, MAIS, si la Tarasque est graciée par la Jeune Sainte, elle est alors apprivoisée par la Jeune Sainte et gagne alors avec le Village. (La Tarasque se comporte comme une Amoureuse envers la Jeune Sainte mais cette dernière ne se suicide pas si la Tarasque meurt.)",
+		"image":"https://cdn.discordapp.com/attachments/462349423783968798/487755283641139220/tarasque_by_arvalis-db1ivxx.png",
+		"camp":"Seul/Village"
+	},
+	"lajeunesainte": {
+		"nom":"La jeune sainte",
+		"description":"Une fois par nuit, la Jeune Sainte peut prier et ainsi accorder grâce à un joueur le temps d'une journée. Si le joueur gracié est un villageois ou un indépendant, son vote comptera alors double. Si le joueur gracié est un Loup-Garou, il pourra alors manger une seconde personne lors de la prochaine nuit.",
+		"image":"https://cdn.discordapp.com/attachments/462349423783968798/487753969364631562/c83832dee09770ebc3137b06fe078f51.png",
+		"camp":"Village"
+	}
+
+
+
+
+}
