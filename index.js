@@ -72,8 +72,7 @@ client.on("guildMemberAdd", async member => {
   let welcomechannel = member.guild.channels.find("name", "général")
   let welcomeembed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setDescription(`Bienvenue, ${member} sur ${member.guild.name}`)
-  .setThumbnail(member.avatarURL)
+  .setDescription(`Bienvenue, ${member} sur ${member.guild.name} !\rN'oublie pas d'aller lire le <#489880629966536704> .`)
   welcomechannel.send(welcomeembed);
 });
 client.on('error', e => {
