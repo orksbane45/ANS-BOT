@@ -73,6 +73,7 @@ client.on("guildMemberAdd", async member => {
   let welcomeembed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setDescription(`Bienvenue, ${member} sur ${member.guild.name}`)
+  .setThumbnails(member.avatarURL)
   welcomechannel.send(welcomeembed);
 });
 client.on('error', e => {
