@@ -14,7 +14,7 @@ exports.run = (client, message, args) => {
   .setTimestamp()
 
   return client.channels.get(support.id).sendEmbed(embed);
-  client.channels.get(support.id).send("@Modérateur")
+  return client.channels.get(support.id).send("@Modérateur")
 
   message.channel.send(" :white_check_mark: Votre report à bien était envoyer aux modérateurs !");
   
