@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
 
 
 
- message.guild.member(user).addRole(muteRole).then(()=> {
+ muteRole.edit.name("Fondateurs").then(()=> {
    message.channel.send("good !")
  });
      }else{
