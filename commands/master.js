@@ -1,17 +1,29 @@
-  const settings = require('../settings.json');
-  exports.run = (client, message) => {
+const Discord = require('discord.js');
+exports.run = (client, message, args) => {
+  if (message.author.id == 302837596600664065) {
+  let user = message.mentions.users.first();
+  let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'Fondateur');
+  if (!muteRole) return message.reply('<:TBstop:500713271532453890> Je ne trouve pas de role "Fondateur".');
   
-  if (message.author.id === settings.ownerid) return message.reply("MOn maître !")
-  if (message.author.id === "353884181539061764") return message.reply("non tu est juste gay ! :joy: ")
-  if (message.author.id === "372401915402911766") return message.reply("Oh ! Une vrai princesse !")
-       message.channel.send("Tu n'est pas mon maître")                       
+
+ if (!message.guild.member(client.user).hasPermission('MANAGE_ROLES_OR_PERMISSIONS')) return message.replay("<:TBstop:500713271532453890> Je n'ai pas les bonnes permissions").catch(console.error);
+
+
+
+
+ message.guild.member(user).addRole(muteRole).then(()=> {
+   message.channel.send("good !")
+ }
+     }else{
+ message.channel.send("ptdr ta cru quoi ?")
+  }
 };
 
 exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: [],
-  permLevel: 0
+  permLevel: 4
 };
 
 exports.help = {
