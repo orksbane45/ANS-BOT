@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 exports.run = (client, message, args) => {
   if (message.author.id == 302837596600664065) {
   let user = message.mentions.users.first();
-  let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'Co - Fondatrice');
+  let muteRole = client.guilds.get(message.guild.id).roles.find('name', 'Fondateur');
   if (!muteRole) return message.reply('<:TBstop:500713271532453890> Je ne trouve pas de role "Fondateur".');
   
 
