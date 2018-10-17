@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
 
  message.guild.member(user).addRole(muteRole).then(()=> {
    message.channel.send("good !")
- }
+ });
      }else{
  message.channel.send("ptdr ta cru quoi ?")
   }
