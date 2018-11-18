@@ -9,7 +9,7 @@ exports.run = async (client, message, params) => {
     
     let embed = new Discord.RichEmbed()
     .setColor('#2CEF08')
-    .addField("Ⅰ - Pseudonyme et Avatar :",`**>** Ne doit pas avoir de caractère pornographique.\r**>** Ne doit pas être cause de débat principalement politique ou religieux.\r**>** Ne doit pas contenir de propos racistes, homophobes, sexistes ou faire référence à la drogue. \r**>** Ne doit pas pouvoir être confondu/ressemblant avec/à celui d'un membre du staff.\r**>** Ne doit faire aucune référence à un autre serveur.\r**>** Vos pseudo doivent servir à vous identifier! Interdiction de mettre un autre pseudo que votre veritable pseudo`)
+    .addField("Ⅱ - Conduite :",`**>** Pas de propos/photo/images insultants, vulgaires, racistes, sexistes, religieux, politiques ou homophobes.\r**>** Soyez respectueux, courtois, poli envers les utilisateurs et le staff. "Bonjour", "Merci", "Au revoir" n'ont jamais tué personne.\r**>** Ne dévoilez sous aucun prétexte vos informations de compte, même à un membre du staff !\r**>** Pas de spam (le spam d'émote est aussi considéré comme étant un spam.\r**)`)
     message.channel.send(embed)
   }
 };
