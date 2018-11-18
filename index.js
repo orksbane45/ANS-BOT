@@ -69,14 +69,14 @@ client.on('warn', e => {
 client.on("guildMemberAdd", async member => {
   console.log(`${member.id} joined the server.`)
 
-  let welcomechannel = member.guild.channels.find("name", "général")
+  let welcomechannel = member.guild.channels.find("name", "join-leave")
   let welcomeembed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setDescription(`Bienvenue, ${member} sur ${member.guild.name} !\rN'oublie pas d'aller lire le <#489880629966536704> .`)
+  .setDescription(`Bienvenue, ${member} sur ${member.guild.name} !`)
   welcomechannel.send(welcomeembed);
 });
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login(process.env.BILLLETHUG);
+client.login(process.env.ANS);
