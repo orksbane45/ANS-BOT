@@ -10,9 +10,9 @@ exports.run = (client, message, params) => {
 
   .setColor('RANDOM')
   .setAuthor('Liste des commandes :')
-  .addField('<:AnarchyNetworkSecurity:513825192196177926> Administrations', 'SOON')
+  .addField('<:AnarchyNetworkSecurity:513825192196177926> Administrations', '`?purge`')
   .addField('<:AnarchyNetworkSecurity:513825192196177926> Fun', 'SOON')
-  .addField('<:AnarchyNetworkSecurity:513825192196177926> Informations','?stats')
+  .addField('<:AnarchyNetworkSecurity:513825192196177926> Informations','`?stats`, `?ping`')
   
   .setDescription("Utilisez `chelp <commandes> pour plus d'informations !`")
   .setTimestamp()
