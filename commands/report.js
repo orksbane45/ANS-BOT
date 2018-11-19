@@ -2,21 +2,21 @@ const Discord = require('discord.js');
 exports.run = (client, message, args) => {
 
   
-  let support = client.channels.find('name', 'staff-modo');
+  let support = client.channels.find('name', 'staff-chat');
   if (!support) return message.reply('erreur 1');
   let msupport = message.content.split(" ").slice(1);
   message.delete()
  const embed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setTitle(`report !`)
+  .setTitle(`Report !`)
   .setDescription(msupport.join(" "))
   .setAuthor(`${message.author}`)
   .setTimestamp()
 
   return client.channels.get(support.id).sendEmbed(embed);
-  return client.channels.get(support.id).send("@Modérateur")
+  return client.channels.get(support.id).send("@Chevalier")
 
-  message.channel.send(" :white_check_mark: Votre report à bien était envoyer aux modérateurs !");
+  message.channel.send("<:AnarchyNetworkSecurity:513825192196177926> Votre report à bien était envoyer aux staffs !");
   
 };
 
