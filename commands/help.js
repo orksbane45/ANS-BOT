@@ -10,9 +10,9 @@ exports.run = (client, message, params) => {
 
   .setColor('RANDOM')
   .setAuthor('Liste des commandes :')
-  .addField(':rotating_light: Administrations', 'en dev')
-  .addField('<:IZBgames:459689915039612928> Fun', 'en dev')
-  .addField('<:IZBinfo:459689946513408000> Infos','en dev')
+  .addField('<:AnarchyNetworkSecurity:513825192196177926> Administrations', 'SOON')
+  .addField('<:AnarchyNetworkSecurity:513825192196177926> Fun', 'SOON')
+  .addField('<:AnarchyNetworkSecurity:513825192196177926> Informations','?stats')
   
   .setDescription("Utilisez `chelp <commandes> pour plus d'informations !`")
   .setTimestamp()
@@ -38,7 +38,7 @@ exports.conf = {
   enabled: true,
   guildOnly: false,
   aliases: ['h', 'halp'],
-  permLevel: 4
+  permLevel: 0
 };
 
 exports.help = {
