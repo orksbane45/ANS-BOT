@@ -16,7 +16,7 @@ exports.run = (client, message, args) => {
 
     exports.help = {
       name: 'ip',
-      description: 'Donne l'ip du serveur minecraft.',
+      description: 'Donne l\'ip du serveur minecraft.',
       usage: 'ip',
       aliase: ['ip']
 }
