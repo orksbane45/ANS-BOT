@@ -4,10 +4,10 @@ exports.run = (client, message) => {
 
 
         if (msg.createdTimestamp - message.createdTimestamp < 200)
-      msg.edit(':large_blue_circle: :' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
+      msg.edit('<:AnarchyNetworkSecurity:513825192196177926> :' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
 
   if (msg.createdTimestamp - message.createdTimestamp >= 200)
-      msg.edit(':red_circle: :' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
+      msg.edit('<:AnarchyNetwork:513747006624235520> :' + (msg.createdTimestamp - message.createdTimestamp) + 'ms');
 
 
     });
